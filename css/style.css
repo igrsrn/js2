@@ -1,0 +1,10 @@
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 150px;
+    padding: 10px;
+    background-color: purple;
+}
