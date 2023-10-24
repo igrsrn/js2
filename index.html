@@ -27,6 +27,10 @@
       // 1. Найти по id, используя getElementById, элемент с id равным "super_link" и вывести этот элемент в консоль.
 
       console.log(document.getElementById("super_link"));
+
+      // 2. Внутри всех элементов на странице, которые имеют класс "card-link", поменяйте текст внутри элемента на "ссылка".
+
+      document.querySelectorAll('.card-link').forEach(el => el.textContent = 'ссылка');
     </script>
   </body>
 </html>
