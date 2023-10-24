@@ -47,6 +47,16 @@
       // 6. Получите элемент с классом "card-title" и выведите его родительский узел в консоль.
 
       console.log(document.querySelector('.card-title').parentNode);
+
+      // 7. Создайте тег, запишите внутри него текст "Привет" и добавьте созданный тег в начало элемента, который имеет класс "card".
+
+      const cardEl = document.querySelector('.card');
+
+      const textEl = document.createElement('p');
+
+      textEl.textContent = 'Привет';
+
+      cardEl.prepend(textEl);
     </script>
   </body>
 </html>
