@@ -31,6 +31,10 @@
       // 2. Внутри всех элементов на странице, которые имеют класс "card-link", поменяйте текст внутри элемента на "ссылка".
 
       document.querySelectorAll('.card-link').forEach(el => el.textContent = 'ссылка');
+
+      // 3. Найти все элементы на странице с классом "card-link", которые лежат в элементе с классом "card-body" и вывести полученную коллекцию в консоль.
+
+      console.log(document.querySelectorAll('.card-body .card-link'));
     </script>
   </body>
 </html>
